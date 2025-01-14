@@ -1,0 +1,13 @@
+/* bugSolution.css */
+.container {
+  width: 800px; /* Explicitly set width */
+  background-color: lightgray;
+}
+
+.element {
+  width: calc(100% - 20px);
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* The calculation now works correctly because the parent element has a defined width. */
